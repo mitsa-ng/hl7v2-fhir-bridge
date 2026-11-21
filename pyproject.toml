@@ -1,0 +1,9 @@
+[project]
+name = "hl7v2-fhir-bridge"
+version = "0.1.0"
+description = "HL7 v2.x (ER7) to FHIR R4 converter, Python standard library only"
+requires-python = ">=3.10"
+license = "MIT"
+
+[project.scripts]
+hl7v2-fhir-bridge = "hl7v2_fhir_bridge.__main__:main"
